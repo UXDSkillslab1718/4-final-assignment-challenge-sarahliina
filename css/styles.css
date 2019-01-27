@@ -224,6 +224,24 @@ p + h3 {
 }
 
 
+/* Projects */
+
+.project-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sample-image {
+    border-radius: 50%;
+    width: 250px;
+}
+
+/* Design & Creativity */
+
+.designcreativity {
+    background: #EDF2F4;
+}
+
 /* Media queries */
 
 @media (min-width: 900px) {
@@ -236,6 +254,7 @@ p + h3 {
     #cover-image {
         width: 20%;
     }
+    
 
     .col-wide {
         width: 60%;
@@ -251,6 +270,10 @@ p + h3 {
 
     #cover-image {
         width: 150px;
+    }
+    
+    .sample-image {
+        150px;
     }
 
     .facebook {
