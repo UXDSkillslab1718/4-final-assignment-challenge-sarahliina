@@ -73,7 +73,7 @@ a:hover {
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 40px 75px;
+    padding: 40px 75px 20px 75px;
     overflow: auto;
 }
 
@@ -203,7 +203,8 @@ h3 ~ p {
     margin: 0;
 }
 
-.job-desctiption {
+.job-description {
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -215,7 +216,7 @@ h3 ~ p {
 /* Education */
 
 .education {
-    background: linear-gradient(rgba(195, 209, 210, 0.8), rgba(195, 209, 210, 0.5)), url(../images/background1.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(195, 209, 210, 0.8), rgba(195, 209, 210, 0.5)), url(../images/background2.jpg) no-repeat fixed;
     background-size: cover;
 }
 
@@ -226,10 +227,6 @@ p + h3 {
 
 /* Projects */
 
-.project-title {
-    text-align: center;
-    margin-bottom: 50px;
-}
 
 .sample-image {
     border-radius: 50%;
@@ -249,6 +246,11 @@ p + h3 {
         width: 40%;
         float: left;
     }
+    
+    .col-narrow2 {
+        float: right;
+        width: 35%;
+    }
 
 
     #cover-image {
@@ -260,6 +262,11 @@ p + h3 {
         width: 60%;
         float: right;
         padding-left: 50px;
+    }
+    
+    .col-wide2 {
+        width: 65%;
+        float: left;
     }
 }
 
