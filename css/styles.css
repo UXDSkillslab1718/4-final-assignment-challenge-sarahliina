@@ -77,6 +77,12 @@ a:hover {
     overflow: auto;
 }
 
+.content-wrap-projects {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 40px 75px;
+    overflow: auto;
+}
 
 
 
@@ -98,11 +104,12 @@ nav a {
     font-weight: 700;
 }
 
-#menu-icon  {   background: url(../images/menu2.png) no-repeat center;
-                display: none;
-                width: 2rem;
-                height: 2rem;
-            }
+#menu-icon {
+    background: url(../images/menu2.png) no-repeat center;
+    display: none;
+    width: 2rem;
+    height: 2rem;
+}
 
 ul {
     margin: 0;
@@ -233,6 +240,10 @@ p + h3 {
     width: 250px;
 }
 
+.more {
+    margin-top: 10px;
+}
+
 /* Design & Creativity */
 
 .designcreativity {
@@ -251,7 +262,7 @@ img.hover-shadow {
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -259,10 +270,10 @@ img.hover-shadow {
 
 @media (min-width: 900px) {
     .col-narrow {
-        width: 40%;
+        width: 32%;
         float: left;
     }
-    
+
     .col-narrow2 {
         float: right;
         width: 32%;
@@ -272,30 +283,30 @@ img.hover-shadow {
     #cover-image {
         width: 20%;
     }
-    
+
 
     .col-wide {
-        width: 60%;
+        width: 68%;
         float: right;
         padding-left: 50px;
     }
-    
+
     .col-wide2 {
         width: 68%;
         float: left;
         padding-right: 30px;
     }
-    
+
     .col-narrow3 {
         width: 60%;
-        float:left;
+        float: left;
         padding-right: 20px;
     }
-    
+
     .col-wide3 {
         width: 40%;
         float: right;
-       
+
     }
 }
 
@@ -307,17 +318,9 @@ img.hover-shadow {
     #cover-image {
         width: 150px;
     }
-    
+
     .sample-image {
         150px;
-    }
-
-    .facebook {
-        margin-left: 5%;
-    }
-
-    .mail {
-        margin-right: 5%;
     }
 
     #menu-icon {
@@ -330,11 +333,11 @@ img.hover-shadow {
         background: #FFFFFF;
         display: none;
         position: absolute;
-        
+
         padding-left: 5px;
         padding-right: 5px;
         top: 30px;
-        width: 30%;
+        width: 45%;
         margin: 0;
     }
 
@@ -353,17 +356,42 @@ img.hover-shadow {
         display: none;
     }
 }
-}
+
 
 
 
 /* Social Media Icons */
 
+.svg--icon {
+    width: 100%;
+    max-width: 5rem;
+    height: 100%;
+    max-height: 5rem;
+    display: block;
+    margin: 0 auto;
+    fill: currentColor;
+}
+
+.wrapper {
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.share {
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    margin: .5rem 1rem .5rem 0;
+    border: .125rem solid currentColor;
+    border-radius: 50%;
+}
+
 .facebook {
     color: #3b5998;
-    float: left;
     padding: 5px;
-    margin-left: 40%;
 }
 
 .facebook:hover {
@@ -374,9 +402,7 @@ img.hover-shadow {
 
 .mail {
     color: #24364E;
-    float: right;
     padding: 5px;
-    margin-right: 40%;
 }
 
 .mail:hover {
@@ -384,26 +410,3 @@ img.hover-shadow {
     color: #fff;
     border-color: #24364E;
 }
-
-.social-media-button {
-    align-items: center;
-    border: 2px solid currentColor;
-    border-radius: 50%;
-    box-sizing: border-box;
-    display: block;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    justify-content: center;
-    text-align: center;
-    overflow: auto;
-}
-
-
-.social-media-button > svg {
-    fill: currentColor;
-}
-
-
-
