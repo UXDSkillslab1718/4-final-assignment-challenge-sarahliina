@@ -54,8 +54,9 @@ a {
     text-decoration: none;
 }
 
+
 a:hover {
-    color: #C3D1D2;
+    color: #5a91a6;
     text-decoration: none;
 }
 
@@ -150,8 +151,16 @@ ul {
 
 /* Header & Footer styles */
 
-header,
+header {
+    background: #EDF2F4;
+}
+
 footer {
+    background: #C3D1D2;
+    color: #24364E;
+}
+
+#about {
     background: #C3D1D2;
     color: #24364E;
 }
@@ -250,6 +259,18 @@ p + h3 {
     background: #EDF2F4;
 }
 
+/* Digital Skills */
+
+.main-image {
+    width: 100%;
+}
+
+.thumbnail {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Bootcamp */
 
 
 /* Image Gallery */
@@ -308,6 +329,53 @@ img.hover-shadow {
         float: right;
 
     }
+
+    .col-left {
+        width: 50%;
+        float: left;
+        padding-right: 5px;
+    }
+
+    .col-right {
+        width: 50%;
+        float: right;
+        padding-left: 5px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .align-left {
+        width: 50%;
+        float: left;
+        padding-right: 5px;
+    }
+
+    .align-right {
+        width: 50%;
+        float: right;
+        padding-left: 5px;
+    }
+
+    .align-left-small {
+        width: 33%;
+        float: left;
+
+    }
+
+    .align-center {
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .align-right-small {
+        width: 33%;
+        float: right;
+        margin-top: -277px;
+    }
+
 }
 
 @media (max-width: 899px) {
@@ -373,7 +441,7 @@ img.hover-shadow {
 }
 
 .wrapper {
-    width: 100%; 
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
